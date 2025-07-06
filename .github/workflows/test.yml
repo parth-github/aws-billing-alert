@@ -7,6 +7,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "Hello from Docker-hosted runner!"
-      - run: docker version
-      - run: docker info
-      - run: docker run --rm hello-world
