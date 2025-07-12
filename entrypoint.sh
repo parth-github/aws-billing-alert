@@ -2,7 +2,7 @@
 set -e
 
 ./config.sh --unattended \
-  --url https://github.com/parth-github/aws-billing-alert \
+  --url $RUNNER_URL \
   --token $RUNNER_TOKEN \
   --name $(hostname) \
   --work _work \
